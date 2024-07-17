@@ -1,0 +1,20 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  errors:
+    invalid_annotation_target: ignore
+    missing_required_param: warning
+    missing_return: warning
+  strong-mode:
+    implicit-casts: false
+    implicit-dynamic: false
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+
+linter:
+  rules:
+    constant_identifier_names: false
+    non_constant_identifier_names: false
+    prefer_const_constructors: false
+    prefer_initializing_formals: false
